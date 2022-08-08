@@ -15,10 +15,13 @@ console.log("Now you're ready to go outside!");
 */
 
 //Second conditionals exercise
-const temperature = 16;
+const temperature = 41;
 
 
-if (temperature < 0){
+if (temperature < -40 || temperature > 40){
+  console.log("Maybe going outside isn't such a great idea...");
+}
+else if (temperature < 0){
   console.log("Make sure you pick up a scarf!");
 }
 else if(temperature < 15){
